@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon"
+            href="https://cdn-icons-png.flaticon.com/512/3923/3923306.png" />
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;700;900&display=swap"
+            rel="stylesheet">
+            <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <main class="main">
+
+            <div class="error-login">
+
+            </div>
+
+            <section class="contenedor-login">
+                <section class="contenedor-img">
+
+                    <h2 class="nombretec-titulo">Test TecNM / ITTG</h2>
+
+                    <picture>
+                      
+                        <img loading="lazy" decoding="async"
+                            src="img/nombretec.avif"
+                            lazyalt="imagen"
+                            width="500" height="300">
+                    </picture>
+                </section>
+
+                <section class="contenedor-contenido">
+                    <form class="form-login" action method="POST">
+
+                        <p class="form-login__titulo">Iniciar Sesión</>
+                            <div class="form-login-input">
+                                <span class="form-login__icono">
+                                    <i class="fa fa-user-circle"></i>
+                                </span>
+                                <input class="form-login__correo" type="email"
+                                    name="correo" id="usuario"
+                                    placeholder="Coreo Institucional">
+                            </div>
+                            <div class="form-login-input">
+                                <span class="form-login__icono">
+                                    <i class="fa fa-lock"></i>
+                                </span>
+                                <input class="form-login__contraseña"
+                                    name="contraseña" id="contraseña"
+                                    type="password"
+                                    placeholder="Contraseña">
+                                <span class="togglePassword" id="togglePassword"><i
+                                        id="ojo" class="fa-solid fa-eye"></i></span>
+                            </div>
+
+                            <input class="btn-sesion" type="submit"
+                                value="Iniciar sesión">
+                        </form>
+                        <a class="a-registrarse" href>Registrarse</a>
+                    </section>
+
+                </section>
+            </main>
+
+            <script src="js/img.js"></script>
+        </body>
+    </html>
